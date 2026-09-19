@@ -1,10 +1,10 @@
 # Sentiment Analysis Streamlit
 
-Website praktikum NLP untuk:
-- English Sentiment Analysis dengan TextBlob + VADER
-- Indonesian Sentiment Analysis dengan Indonesian RoBERTa Sentiment Classifier
+NLP website for:
+- English Sentiment Analysis with TextBlob + VADER
+- Indonesian Sentiment Analysis with Indonesian RoBERTa Sentiment Classifier
 
-## Jalankan
+## Run
 
 ```bash
 python -m venv .venv
@@ -13,9 +13,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Untuk Windows PowerShell jika execution policy menghalangi aktivasi venv, gunakan terminal Command Prompt atau jalankan `\.venv\Scripts\python.exe -m pip install -r requirements.txt` lalu `\.venv\Scripts\python.exe -m streamlit run app.py`.
+For Windows PowerShell, if the execution policy prevents venv from being activated, use the Command Prompt or run `\.venv\Scripts\python.exe -m pip install -r requirements.txt` and then `\.venv\Scripts\python.exe -m streamlit run app.py`.
 
-## Struktur
+## Structure
 
 ```text
 sentiment_analysis_streamlit/
